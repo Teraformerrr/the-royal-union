@@ -33,7 +33,7 @@ export default function AboutUs() {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-3xl text-charcoal-blue/80 max-w-4xl mx-auto font-medium drop-shadow-sm leading-relaxed"
                     >
-                        The Royal Union: Your Gateway to Dubai's Elite Opportunities
+                        The Royal Union: Your Gateway to UAE's Elite Opportunities
                     </motion.p>
                 </div>
             </section>
@@ -72,28 +72,28 @@ export default function AboutUs() {
                 </div>
             </section>
 
-            {/* Expertise */}
+            {/* Leadership / CEO Section */}
             <section className="py-24 bg-white">
                 <div className="container mx-auto px-6">
-                    <div className="max-w-4xl mx-auto">
-                        <ScrollReveal>
-                            <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-12 text-center">Our Expertise</h2>
-                        </ScrollReveal>
-                        <div className="space-y-8">
-                            {[
-                                "A team of seasoned professionals with decades of experience in UAE business, finance, and governance.",
-                                "Proven track record of facilitating multimillion-dollar setups and partnerships.",
-                                "Commitment to discretion, integrity, and client success."
-                            ].map((item, i) => (
-                                <ScrollReveal key={i} delay={i * 0.1}>
-                                    <div className="flex items-start gap-6 bg-desert-sand p-8 rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
-                                        <div className="w-4 h-4 bg-royal-gold rounded-full mt-2 shrink-0" />
-                                        <p className="text-xl text-gray-700 leading-relaxed">{item}</p>
+                    <ScrollReveal>
+                        <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-16 text-center">Meet the CEO</h2>
+                        <div className="max-w-md mx-auto">
+                            <a href="/about-us/ceo" className="block group">
+                                <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 group-hover:shadow-3xl">
+                                    <img src="/images/sheikh-handshake.jpg" alt="CEO & Chairman" className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-70 transition-opacity duration-500" />
+
+                                    <div className="absolute bottom-0 left-0 right-0 p-8 text-center transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                                        {/* <h3 className="text-3xl font-serif font-bold text-royal-gold mb-2">His Excellency</h3> */}
+                                        {/* <p className="text-white/90 text-lg uppercase tracking-widest font-light mb-6">Chairman</p> */}
+                                        <div className="inline-block border border-white/30 rounded-full px-6 py-2 text-sm text-white/80 group-hover:bg-white group-hover:text-charcoal-blue transition-all duration-300">
+                                            View Profile
+                                        </div>
                                     </div>
-                                </ScrollReveal>
-                            ))}
+                                </div>
+                            </a>
                         </div>
-                    </div>
+                    </ScrollReveal>
                 </div>
             </section>
 

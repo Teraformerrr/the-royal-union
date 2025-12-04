@@ -58,10 +58,10 @@ export default function Footer() {
                                     Downtown Dubai, UAE
                                 </span>
                             </li>
-                            <li className="flex items-center gap-4">
+                            {/* <li className="flex items-center gap-4">
                                 <Phone className="text-royal-gold shrink-0" size={20} />
                                 <span className="text-gray-500 text-sm">+971 4 123 4567</span>
-                            </li>
+                            </li> */}
                             <li className="flex items-center gap-4">
                                 <Mail className="text-royal-gold shrink-0" size={20} />
                                 <span className="text-gray-500 text-sm">contact@royalunion.ae</span>
