@@ -10,7 +10,7 @@ export default function AboutUs() {
     const teamMembers = [
         {
             name: "Dezmen Driver",
-            role: "CEO",
+            role: "Principle",
             image: "/images/dez.png",
             link: "/about-us/ceo",
             description: null,
@@ -74,7 +74,7 @@ export default function AboutUs() {
                 <ScrollReveal>
                     <div className="max-w-5xl mx-auto text-center">
                         <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
-                            Founded on the principles of excellence and connectivity, The Royal Union is a premier consultancy dedicated to empowering foreign businesses in UAE. We specialize in market entry, exclusive partnerships, wealth management, and legal structuring—delivering results that blend innovation with tradition.
+                            Founded on the principles of excellence and connectivity, The Royal Union is a premier Partnership dedicated to empowering foreign businesses in UAE. We specialize in market entry, exclusive partnerships, wealth management, and legal structuring—delivering results that blend innovation with tradition.
                         </p>
                     </div>
                 </ScrollReveal>
@@ -89,7 +89,7 @@ export default function AboutUs() {
                                 <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-8">Our Mission</h2>
                                 <div className="w-24 h-1 bg-royal-gold mb-8" />
                                 <p className="text-xl text-gray-600 leading-relaxed">
-                                    To create enduring value by linking global enterprises with UAE's royalty, government, and financial networks, fostering sustainable growth in one of the world's most vibrant economies.
+                                    To create enduring value by linking global enterprises with UAE's government, and financial networks, fostering sustainable growth in one of the world's most vibrant economies.
                                 </p>
                             </div>
                             <div className="lg:w-1/2">

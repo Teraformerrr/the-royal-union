@@ -67,7 +67,7 @@ export default function CEOProfile() {
                             </p>
                             <ul className="list-none space-y-4">
                                 <li>
-                                    <strong>F&B Ventures:</strong> Including Wok Boys and the award-winning Nara Thi Pan Asia—collectively driving over AED 38 million in food & beverage revenue.
+                                    <strong>F&B Ventures:</strong> Including Wok Boys and the award-winning Nara Thi Pan Asia.
                                 </li>
                                 <li>
                                     <strong>Real Estate Development, Brokerage & Investment Firms:</strong> Delivering a combined portfolio across multi-use developments.
@@ -76,9 +76,12 @@ export default function CEOProfile() {
                                     <strong>Oracle Traders:</strong> An artificial-intelligence-driven hedge fund specializing in predictive modeling and advanced investment algorithms.
                                 </li>
                                 <li>
+                                    <strong>Pink Trolly:</strong> Luxury Bespoke Real Estate Remoing Company providing dream aboad alterations and property appreciation upgrades.
+                                </li>
+                                <li>
                                     <strong>Al Barsha Private Notary:</strong> The UAE’s leading luxury private legal notary, facilitating high-value corporate and government transactions, and providing an essential gateway for international businesses entering the UAE.
                                 </li>
-                                
+
                             </ul>
 
                             <p className="mt-8">

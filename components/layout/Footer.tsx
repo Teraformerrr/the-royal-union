@@ -42,7 +42,7 @@ export default function Footer() {
                                 { name: "Corporate Governance", href: "/corporate-governance" },
                                 { name: "Legal Consultancy", href: "/legal-consultancy" },
                                 // { name: "Asset Management", href: "/asset-management" },
-                                { name: "Royal Partnerships", href: "/royal-partnerships" }
+                                { name: "Meaningful Relationships", href: "/royal-partnerships" }
                             ].map((item) => (
                                 <li key={item.name}>
                                     <a href={item.href} className="text-gray-500 hover:text-royal-gold transition-colors duration-300 text-sm">

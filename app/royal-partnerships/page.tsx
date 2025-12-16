@@ -25,7 +25,7 @@ export default function RoyalPartnerships() {
                         transition={{ duration: 0.8 }}
                         className="text-5xl md:text-7xl font-serif font-bold text-charcoal-blue mb-6 drop-shadow-sm"
                     >
-                        Royal Partnerships
+                        Meaningful Relationships
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 30 }}
@@ -44,7 +44,7 @@ export default function RoyalPartnerships() {
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8">Overview</h2>
                         <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                            The Royal Union facilitates strategic alliances between global enterprises and UAE royalty. These partnerships go beyond mere sponsorship; they are collaborative ventures that open doors to government contracts, large-scale projects, and unparalleled market credibility.
+                            The Royal Union cultivates strategic relationships that align global enterprises with UAE's most forward looking initiatives, unlocking participation in transformative projects and elevated market positioning.
                         </p>
                     </div>
                 </ScrollReveal>
@@ -58,7 +58,7 @@ export default function RoyalPartnerships() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             {[
                                 { title: "Prestige & Credibility", desc: "Aligning your brand with royal patronage instantly elevates your standing in the region." },
-                                { title: "Government Relations", desc: "Streamlined communication with key ministries and regulatory bodies." },
+                                { title: "Domestic Relations", desc: "Streamlined communication with key ministries and regulatory bodies." },
                                 { title: "Exclusive Opportunities", desc: "Invites to closed-door investment rounds and major infrastructure projects." }
                             ].map((item, i) => (
                                 <div key={i} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">

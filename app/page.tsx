@@ -80,12 +80,16 @@ export default function Home() {
               variants={fadeIn}
               className="flex flex-col md:flex-row items-center justify-center gap-6 pt-8"
             >
+              <a href="/contact-us">
               <Button size="lg" className="w-full md:w-auto min-w-[200px] shadow-lg shadow-royal-gold/20">
                 Explore Solutions
               </Button>
+              </a>
+              <a href="/contact-us">
               <Button variant="outline" size="lg" className="w-full md:w-auto min-w-[200px] bg-white/50 backdrop-blur-sm border-royal-gold text-royal-gold-dark hover:bg-royal-gold hover:text-white">
                 Contact Us
               </Button>
+              </a>
             </motion.div>
           </motion.div>
         </div>
@@ -118,10 +122,7 @@ export default function Home() {
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               At The Royal Union, we curate exclusive opportunities that blend the heritage of the Middle East with global business standards. Our approach is rooted in integrity, vision, and an unwavering commitment to success.
             </p>
-            <Button variant="outline" className="group border-royal-gold text-royal-gold hover:bg-royal-gold hover:text-white">
-              Read Our Story
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            
           </motion.div>
 
           <motion.div
@@ -215,9 +216,11 @@ export default function Home() {
               <p className="text-gray-600 text-lg mb-10 max-w-xl">
                 Join a network of elite visionaries and industry leaders. We provide the platform for your business to ascend to new heights.
               </p>
-              <Button size="lg" className="bg-charcoal-blue text-white hover:bg-charcoal-blue-light">
-                Become a Partner
-              </Button>
+              <a href="/contact-us">
+                <Button size="lg" className="bg-charcoal-blue text-white hover:bg-charcoal-blue-light">
+                  Become a Partner
+                </Button>
+              </a>
             </div>
             <div className="lg:w-1/2 relative">
               <div className="relative z-10">
@@ -235,43 +238,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials / Success Stories */}
-      <Section className="bg-background">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">Success Stories</h2>
-        </div>
-
-        {/* Optional: Group Walking Image as a feature or background here */}
-        <div className="mb-16 relative h-96 rounded-2xl overflow-hidden mx-auto max-w-5xl shadow-2xl">
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
-          <img
-            src="/images/sheikh-team-walking.jpg"
-            alt="Leadership Team"
-            className="object-cover w-full h-full"
-          />
-          <div className="absolute bottom-8 left-8 z-20 text-white">
-            <h3 className="text-2xl font-serif font-bold mb-2">Leading the Way</h3>
-            <p className="text-gray-200">Our leadership team driving innovation across the region.</p>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[1, 2, 3].map((i) => (
-            <Card key={i} className="bg-white border-gray-200 hover:border-royal-gold/50 shadow-sm">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 h-12 bg-gray-100 rounded-full border border-royal-gold/20" />
-                <div>
-                  <h4 className="font-serif font-bold text-foreground">Client Name</h4>
-                  <p className="text-xs text-gray-500 uppercase">CEO, Global Corp</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">
-                "The Royal Union transformed our approach to the Middle Eastern market. Their insights and connections are truly unparalleled."
-              </p>
-            </Card>
-          ))}
-        </div>
-      </Section>
+      
 
       <Footer />
     </main>

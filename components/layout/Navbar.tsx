@@ -12,6 +12,7 @@ const navLinks = [
     { name: "Royalty & Governance", href: "/royalty-governance" },
     { name: "Wealth Management", href: "/wealth-management" },
     { name: "Legal & Corporate", href: "/legal-corporate" },
+    { name: "CSR", href: "/csr" },
     { name: "About Us", href: "/about-us" },
     { name: "Contact Us", href: "/contact-us" },
 ];
