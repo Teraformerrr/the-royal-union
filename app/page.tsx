@@ -97,7 +97,7 @@ export default function Home() {
           transition={{ delay: 1.5, duration: 1 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
         >
-          <span className="text-xs text-gray-500 tracking-widest uppercase">Scroll</span>
+
           <div className="w-[1px] h-12 bg-gradient-to-b from-royal-gold to-transparent" />
         </motion.div>
       </section>
@@ -166,7 +166,11 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: Shield, title: "Governance", desc: "Upholding the highest standards of corporate integrity and compliance." },
+            {
+              image: "/images/governance/golden_eagle2.png",
+              title: "Governance",
+              desc: "Upholding the highest standards of corporate integrity and compliance."
+            },
             { icon: TrendingUp, title: "Wealth", desc: "Strategic asset management and investment diversification." },
             { icon: Globe, title: "Global Reach", desc: "Connecting local heritage with international opportunities." },
             { icon: Award, title: "Excellence", desc: "Pursuing perfection in every operational aspect." }
@@ -179,8 +183,14 @@ export default function Home() {
               transition={{ delay: i * 0.1, duration: 0.6 }}
             >
               <Card className="h-full flex flex-col items-center text-center p-8 group bg-white border-royal-gold/10 hover:border-royal-gold/30 shadow-sm hover:shadow-xl">
-                <div className="w-16 h-16 rounded-full bg-royal-gold/5 flex items-center justify-center mb-6 group-hover:bg-royal-gold/20 transition-colors duration-500">
-                  <feature.icon className="w-8 h-8 text-royal-gold" />
+                <div className="w-16 h-16 rounded-full bg-royal-gold/5 flex items-center justify-center mb-6 group-hover:bg-royal-gold/20 transition-colors duration-500 overflow-hidden">
+                  {/* @ts-ignore */}
+                  {feature.image ? (
+                    <img src={feature.image} alt={feature.title} className="w-10 h-10 object-contain" />
+                  ) : (
+                    // @ts-ignore
+                    <feature.icon className="w-8 h-8 text-royal-gold" />
+                  )}
                 </div>
                 <h3 className="text-xl font-serif text-foreground mb-4">{feature.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{feature.desc}</p>

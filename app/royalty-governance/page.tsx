@@ -65,16 +65,17 @@ export default function RoyaltyGovernance() {
                         <div className="flex flex-col lg:flex-row items-center gap-16">
                             <div className="lg:w-1/2">
                                 <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl group">
-                                    <img src="/images/governance/dubai_royalty-2.jpg" alt="Elite Introductions" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
+                                    <img src="/images/governance/Elite_introduction.png" alt="Elite Introductions" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
                                     <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
                                 </div>
                             </div>
                             <div className="lg:w-1/2">
                                 <h3 className="text-3xl md:text-4xl font-serif font-bold text-royal-gold mb-6">Elite Introductions</h3>
                                 <div className="w-20 h-1 bg-royal-gold mb-8" />
-                                <p className="text-gray-600 text-lg md:text-xl leading-relaxed">
+                                <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-6">
                                     Direct connections to royalty and high-level government officials, enabling endorsements, joint ventures, and expedited approvals.
                                 </p>
+                                <a href="/royal-partnerships" className="text-royal-gold font-bold hover:underline">Learn more about Royal Partnerships &rarr;</a>
                             </div>
                         </div>
                     </ScrollReveal>
@@ -88,16 +89,17 @@ export default function RoyaltyGovernance() {
                         <div className="flex flex-col lg:flex-row-reverse items-center gap-16">
                             <div className="lg:w-1/2">
                                 <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl group">
-                                    <img src="/images/governance/dubai_royalty-3.jpg" alt="Governance Expertise" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
+                                    <img src="/images/governance/givernance_expertise.png" alt="Governance Expertise" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
                                     <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
                                 </div>
                             </div>
                             <div className="lg:w-1/2">
                                 <h3 className="text-3xl md:text-4xl font-serif font-bold text-royal-gold mb-6">Governance Expertise</h3>
                                 <div className="w-20 h-1 bg-royal-gold mb-8" />
-                                <p className="text-gray-600 text-lg md:text-xl leading-relaxed">
+                                <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-6">
                                     Navigate UAE's regulatory landscape with insights from insiders, ensuring compliance while unlocking opportunities in sectors like finance, real estate, and technology.
                                 </p>
+                                <a href="/corporate-governance" className="text-royal-gold font-bold hover:underline">Explore Corporate Governance &rarr;</a>
                             </div>
                         </div>
                     </ScrollReveal>
@@ -113,7 +115,7 @@ export default function RoyaltyGovernance() {
                         <div className="max-w-4xl mx-auto text-center">
                             <h3 className="text-3xl md:text-5xl font-serif font-bold text-royal-gold mb-8">Strategic Alliances for Global Players</h3>
                             <p className="text-gray-200 text-lg md:text-xl leading-relaxed mb-0">
-                                Collaborate with us to co-create bespoke solutions for international clients. Leading corporations, institutional investors, and financial institutions can leverage our royal partnerships to offer premium services, such as tailored financing, investment advisory, cross-border wealth structuring, or large-scale project collaborations—expanding your footprint in one of the world's fastest-growing markets.
+                                Collaborate with us to co-create bespoke solutions for international clients. Leading corporations, institutional investors, and financial institutions can leverage our strategic alliances and high-level regional networks to offer premium services, such as tailored financing, investment advisory, cross-border wealth structuring, or large-scale project collaborations—expanding your footprint in one of the world’s fastest-growing markets.
                             </p>
                         </div>
                     </ScrollReveal>

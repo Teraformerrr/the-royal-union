@@ -7,6 +7,37 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import { motion } from "framer-motion";
 
 export default function AboutUs() {
+    const teamMembers = [
+        {
+            name: "Dezmen Driver",
+            role: "CEO",
+            image: "/images/dez.png",
+            link: "/about-us/ceo",
+            description: null,
+        },
+        {
+            name: "Mez Darayas",
+            role: "Director",
+            image: "/images/sheikh-team-walking.jpg",
+            link: null,
+            description: "Mez is a seasoned professional with long-standing experience in Dubai\u2019s real estate and banking sectors. Having grown up and worked in the UAE for many years, he brings deep market insight and a strong understanding of regional financial systems, property investment, and commercial operations. Mez has collaborated with diverse stakeholders across the private and institutional landscape, combining financial discipline with real-world real estate expertise. Known for his strategic mindset and reliability, he continues to deliver value through informed decision-making and a results-driven approach."
+        },
+        {
+            name: "Alex Politis",
+            role: "Director",
+            image: "/images/alez10.png",
+            link: null,
+            description: "Alex oversees the group\u2019s global partnerships and investment initiatives, with a primary focus on building strategic relationships and exploring new investment opportunities across international markets. With a background in finance and economics in Canada, he brings a disciplined, analytical perspective to evaluating potential ventures and reviewing the group\u2019s existing investment opportunities. Alex is involved in opportunity assessment, partner alignment, and high-level oversight, helping ensure investments remain aligned with the group\u2019s strategic objectives and long-term vision."
+        },
+        {
+            name: "Mohamed Mistry",
+            role: "Head Of AI / Technology",
+            image: "/images/jam.png",
+            link: null,
+            description: "Mohamed is an AI specialist focused on applying artificial intelligence and machine learning to finance and real estate, driving data-driven insights, automation, and smarter decision-making. With a strong background in cybersecurity, he develops intelligent systems that prioritize both performance and protection. A dedicated technology enthusiast, Mike excels at building secure, scalable solutions that bridge advanced analytics with real-world business impact."
+        },
+    ];
+
     return (
         <main className="min-h-screen bg-background">
             <Navbar />
@@ -43,7 +74,7 @@ export default function AboutUs() {
                 <ScrollReveal>
                     <div className="max-w-5xl mx-auto text-center">
                         <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
-                            Founded on the principles of excellence and connectivity, The Royal Union is a premier consultancy dedicated to empowering foreign businesses in Dubai. We specialize in market entry, royal partnerships, wealth management, and legal structuring—delivering results that blend innovation with tradition.
+                            Founded on the principles of excellence and connectivity, The Royal Union is a premier consultancy dedicated to empowering foreign businesses in UAE. We specialize in market entry, exclusive partnerships, wealth management, and legal structuring—delivering results that blend innovation with tradition.
                         </p>
                     </div>
                 </ScrollReveal>
@@ -63,7 +94,7 @@ export default function AboutUs() {
                             </div>
                             <div className="lg:w-1/2">
                                 <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-xl border border-royal-gold/20 group">
-                                    <img src="/images/about_us/our mission.jpg" alt="Our Mission" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
+                                    <img src="/images/about_us/our_mission1.jpg" alt="Our Mission" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
                                     <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
                                 </div>
                             </div>
@@ -72,26 +103,57 @@ export default function AboutUs() {
                 </div>
             </section>
 
-            {/* Leadership / CEO Section */}
+            {/* Leadership / Team Section */}
             <section className="py-24 bg-white">
                 <div className="container mx-auto px-6">
                     <ScrollReveal>
-                        <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-16 text-center">Meet the CEO</h2>
-                        <div className="max-w-md mx-auto">
-                            <a href="/about-us/ceo" className="block group">
-                                <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 group-hover:shadow-3xl">
-                                    <img src="/images/sheikh-handshake.jpg" alt="CEO & Chairman" className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110" />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-70 transition-opacity duration-500" />
+                        <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-16 text-center">Meet the Team</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                            {teamMembers.map((member, index) => {
+                                const CardContent = () => (
+                                    <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:shadow-3xl bg-gray-900 group">
+                                        <img
+                                            src={member.image}
+                                            alt={member.name}
+                                            className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110 opacity-90"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent opacity-90 transition-opacity duration-500" />
 
-                                    <div className="absolute bottom-0 left-0 right-0 p-8 text-center transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
-                                        {/* <h3 className="text-3xl font-serif font-bold text-royal-gold mb-2">His Excellency</h3> */}
-                                        {/* <p className="text-white/90 text-lg uppercase tracking-widest font-light mb-6">Chairman</p> */}
-                                        <div className="inline-block border border-white/30 rounded-full px-6 py-2 text-sm text-white/80 group-hover:bg-white group-hover:text-charcoal-blue transition-all duration-300">
-                                            View Profile
+                                        <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end h-full">
+                                            <div className="transform transition-transform duration-500 translate-y-0 group-hover:-translate-y-2">
+                                                <h3 className="text-xl font-serif font-bold text-royal-gold mb-1 text-center md:text-left">{member.name}</h3>
+                                                <p className="text-white/90 text-sm uppercase tracking-widest font-light mb-4 text-center md:text-left">{member.role}</p>
+                                            </div>
+
+                                            {member.description && (
+                                                <div className="h-0 opacity-0 group-hover:h-auto group-hover:opacity-100 transition-all duration-500 overflow-hidden">
+                                                    <p className="text-gray-300 text-xs leading-relaxed text-justify border-t border-white/10 pt-4">
+                                                        {member.description}
+                                                    </p>
+                                                </div>
+                                            )}
+
+                                            {member.link && (
+                                                <div className="mt-2 text-center md:text-left">
+                                                    <span className="inline-block border border-white/30 rounded-full px-6 py-2 text-sm text-white/80 group-hover:bg-white group-hover:text-charcoal-blue transition-all duration-300">
+                                                        View Profile
+                                                    </span>
+                                                </div>
+                                            )}
                                         </div>
                                     </div>
-                                </div>
-                            </a>
+                                );
+
+                                return member.link ? (
+                                    <a key={index} href={member.link} className="block h-full">
+                                        <CardContent />
+                                    </a>
+                                ) : (
+                                    <div key={index} className="block h-full cursor-default">
+                                        <CardContent />
+                                    </div>
+                                );
+                            })}
                         </div>
                     </ScrollReveal>
                 </div>
@@ -105,7 +167,7 @@ export default function AboutUs() {
                         <div className="max-w-5xl mx-auto text-center">
                             <h2 className="text-4xl md:text-5xl font-serif font-bold text-royal-gold mb-10">Partnering with Global Leaders</h2>
                             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-0 font-light">
-                                We're eager to align with leading corporations, institutional investors, and financial institutions to enhance our offerings. Imagine co-branded investment solutions, shared client referrals, or joint ventures in Dubai's booming sectors. Together, we can amplify reach and revenue.
+                                We engage with a select circle of leading corporations, institutional investors, and financial institutions to unlock unparalleled opportunities. Through bespoke co-branded investment solutions, curated client introductions, and strategic ventures in the UAE's most dynamic sectors, we create access to premium markets and high-value clients—opportunities available only to those who partner with us.
                             </p>
                         </div>
                     </ScrollReveal>

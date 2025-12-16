@@ -43,7 +43,7 @@ export default function WealthManagement() {
                 <ScrollReveal>
                     <div className="max-w-5xl mx-auto text-center">
                         <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
-                            The Royal Union specializes in sophisticated wealth management tailored for foreign businesses establishing a presence in Dubai. We combine local expertise with global strategies to safeguard and grow assets in a tax-efficient, high-growth environment.
+                            The Royal Union specializes in sophisticated wealth management tailored for foreign businesses establishing a presence in UAE. We combine local expertise with global strategies to safeguard and grow assets in a tax-efficient, high-growth environment.
                         </p>
                     </div>
                 </ScrollReveal>
@@ -74,9 +74,10 @@ export default function WealthManagement() {
                                 <div className="lg:w-1/2">
                                     <h3 className="text-3xl font-serif font-bold text-foreground mb-6">Asset Optimization</h3>
                                     <div className="w-20 h-1 bg-royal-gold mb-8" />
-                                    <p className="text-gray-600 text-xl leading-relaxed">
+                                    <p className="text-gray-600 text-xl leading-relaxed mb-6">
                                         Customized portfolios blending UAE real estate, equities, and alternative investments for maximum returns.
                                     </p>
+                                    <a href="/asset-management" className="text-royal-gold font-bold hover:underline">Discover Asset Management &rarr;</a>
                                 </div>
                             </div>
                         </ScrollReveal>
@@ -93,9 +94,10 @@ export default function WealthManagement() {
                                 <div className="lg:w-1/2">
                                     <h3 className="text-3xl font-serif font-bold text-foreground mb-6">Risk Mitigation</h3>
                                     <div className="w-20 h-1 bg-royal-gold mb-8" />
-                                    <p className="text-gray-600 text-xl leading-relaxed">
+                                    <p className="text-gray-600 text-xl leading-relaxed mb-6">
                                         Advanced strategies to protect wealth amid market volatility, including diversification across GCC opportunities.
                                     </p>
+                                    <a href="/strategic-investment" className="text-royal-gold font-bold hover:underline">Explore Strategic Investment &rarr;</a>
                                 </div>
                             </div>
                         </ScrollReveal>
@@ -105,7 +107,7 @@ export default function WealthManagement() {
                             <div className="flex flex-col lg:flex-row items-center gap-12">
                                 <div className="lg:w-1/2">
                                     <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-xl group">
-                                        <img src="/images/wealth-management/legacy.jpg" alt="Legacy Planning" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
+                                        <img src="/images/wealth-management/legacy_planning.png" alt="Legacy Planning" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" />
                                         <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
                                     </div>
                                 </div>

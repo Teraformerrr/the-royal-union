@@ -57,9 +57,7 @@ export default function Navbar() {
                                 }`} />
                         </Link>
                     ))}
-                    <Button variant="outline" size="sm" className="ml-4">
-                        Client Portal
-                    </Button>
+
                 </nav>
 
                 {/* Mobile Menu Button */}
@@ -90,9 +88,7 @@ export default function Navbar() {
                                     {link.name}
                                 </Link>
                             ))}
-                            <Button variant="primary" size="md" className="mt-4">
-                                Client Portal
-                            </Button>
+
                         </motion.div>
                     )}
                 </AnimatePresence>

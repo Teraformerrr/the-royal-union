@@ -37,10 +37,16 @@ export default function Footer() {
                     <div>
                         <h3 className="text-lg font-serif font-semibold mb-6 text-royal-gold">Our Services</h3>
                         <ul className="space-y-4">
-                            {["Strategic Investment", "Corporate Governance", "Legal Consultancy", "Asset Management", "Royal Partnerships"].map((item) => (
-                                <li key={item}>
-                                    <a href="#" className="text-gray-500 hover:text-royal-gold transition-colors duration-300 text-sm">
-                                        {item}
+                            {[
+                                { name: "Strategic Investment", href: "/strategic-investment" },
+                                { name: "Corporate Governance", href: "/corporate-governance" },
+                                { name: "Legal Consultancy", href: "/legal-consultancy" },
+                                // { name: "Asset Management", href: "/asset-management" },
+                                { name: "Royal Partnerships", href: "/royal-partnerships" }
+                            ].map((item) => (
+                                <li key={item.name}>
+                                    <a href={item.href} className="text-gray-500 hover:text-royal-gold transition-colors duration-300 text-sm">
+                                        {item.name}
                                     </a>
                                 </li>
                             ))}
@@ -54,8 +60,8 @@ export default function Footer() {
                             <li className="flex items-start gap-4">
                                 <MapPin className="text-royal-gold shrink-0 mt-1" size={20} />
                                 <span className="text-gray-500 text-sm">
-                                    Royal Union Tower, Level 45<br />
-                                    Downtown Dubai, UAE
+                                    Oasis Mall, Dubai<br />
+                                    Sheikh Zayed Road, UAE
                                 </span>
                             </li>
                             {/* <li className="flex items-center gap-4">
