@@ -33,7 +33,7 @@ export default function LegalCorporate() {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-3xl text-charcoal-blue/80 max-w-4xl mx-auto font-medium drop-shadow-sm leading-relaxed"
                     >
-                        Streamline Your Dubai Expansion with Expert Guidance
+                        Streamline Your UAE Expansion with Expert Guidance
                     </motion.p>
                 </div>
             </section>

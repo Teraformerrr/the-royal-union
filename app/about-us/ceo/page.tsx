@@ -16,7 +16,7 @@ export default function CEOProfile() {
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-white/40 z-10" />
                     <div className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/60 to-background/90 z-10" />
-                    <div className="absolute inset-0 bg-[url('/images/sheikh-handshake.jpg')] bg-cover bg-center" />
+                    <div className="absolute inset-0 bg-[url('/images/ceo.jpg')] bg-cover bg-center" />
                 </div>
                 <div className="container mx-auto px-6 relative z-20 text-center">
                     <motion.h1
@@ -55,7 +55,7 @@ export default function CEOProfile() {
                                 Dezmen’s expertise deepened within the private sector as he became Head of Investments for the Al Rajhi Family Office, where over a seven-year tenure he generated over USD 2.1 billion in revenue, primarily through strategic land acquisition, development entry structures, and high-yield real estate exits under Tameer Holdings. His vision and execution helped shape some of the region’s most profitable real estate transactions during a period of rapid market expansion.
                             </p>
                             <p>
-                                He continued advancing into sovereign leadership roles, serving within His Highness the Al Nahyan Private Office as Vice Chairman, entrusted with overseeing both commercial and trade matters for the Al Nahyan family. Dezmen’s responsibilities in this capacity spanned government relations, strategic investment planning, and international partnership development—cementing his standing as a trusted steward of national-level initiatives.
+                                He continued advancing into sovereign leadership roles, serving within His Highness Private Office as Vice Chairman, entrusted with overseeing both commercial and trade matters for His Highness and his family with wealth accumulating to over 1.1 Trillion. Dezmen’s responsibilities in this capacity spanned government relations, strategic investment planning, and international partnership development—cementing his standing as a trusted steward of national-level initiatives.
                             </p>
                             <p>
                                 His executive acumen later extended to his tenure as Executive Director for his Highness, where he directed all investment activities linked to the House of Highness’s Sharjah real estate portfolio and broader fund operations. This role continued to solidify his ability to integrate trade insight, investment governance, and high-stakes project management.
@@ -70,7 +70,7 @@ export default function CEOProfile() {
                                     <strong>F&B Ventures:</strong> Including Wok Boys and the award-winning Nara Thi Pan Asia—collectively driving over AED 38 million in food & beverage revenue.
                                 </li>
                                 <li>
-                                    <strong>Real Estate Development, Brokerage & Investment Firms:</strong> Delivering a combined portfolio exceeding AED 140 million across multi-use developments.
+                                    <strong>Real Estate Development, Brokerage & Investment Firms:</strong> Delivering a combined portfolio across multi-use developments.
                                 </li>
                                 <li>
                                     <strong>Oracle Traders:</strong> An artificial-intelligence-driven hedge fund specializing in predictive modeling and advanced investment algorithms.

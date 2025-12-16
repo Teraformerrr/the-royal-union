@@ -33,7 +33,7 @@ export default function RoyaltyGovernance() {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-3xl text-charcoal-blue/80 max-w-4xl mx-auto font-medium drop-shadow-sm leading-relaxed"
                     >
-                        Unlock Elite Partnerships in Dubai's Thriving Economy
+                        Unlock Elite Partnerships in UAE's Thriving Economy
                     </motion.p>
                 </div>
             </section>
@@ -43,7 +43,7 @@ export default function RoyaltyGovernance() {
                 <ScrollReveal>
                     <div className="max-w-5xl mx-auto text-center">
                         <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
-                            At The Royal Union, we bridge the gap between ambitious foreign enterprises and UAE’s influential circles of royalty and governance. Our exclusive network grants unparalleled access to key decision-makers, facilitating seamless market entry and strategic alliances that propel your business forward.
+                            At The Royal Union, we bridge the gap between ambitious foreign enterprises and UAE’s influential circles. Our exclusive network grants unparalleled access to key decision-makers, facilitating seamless market entry and strategic alliances that propel your business forward.
                         </p>
                     </div>
                 </ScrollReveal>
@@ -73,7 +73,7 @@ export default function RoyaltyGovernance() {
                                 <h3 className="text-3xl md:text-4xl font-serif font-bold text-royal-gold mb-6">Elite Introductions</h3>
                                 <div className="w-20 h-1 bg-royal-gold mb-8" />
                                 <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-6">
-                                    Direct connections to royalty and high-level government officials, enabling endorsements, joint ventures, and expedited approvals.
+                                    Long-Standing engagement across senior leadership and institutional ecosystems, enabling strategic endorsements, joint ventures, and accelerated approval pathways.
                                 </p>
                                 <a href="/royal-partnerships" className="text-royal-gold font-bold hover:underline">Learn more about Royal Partnerships &rarr;</a>
                             </div>

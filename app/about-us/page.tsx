@@ -18,7 +18,7 @@ export default function AboutUs() {
         {
             name: "Mez Darayas",
             role: "Director",
-            image: "/images/sheikh-team-walking.jpg",
+            image: "/images/mez.png",
             link: null,
             description: "Mez is a seasoned professional with long-standing experience in Dubai\u2019s real estate and banking sectors. Having grown up and worked in the UAE for many years, he brings deep market insight and a strong understanding of regional financial systems, property investment, and commercial operations. Mez has collaborated with diverse stakeholders across the private and institutional landscape, combining financial discipline with real-world real estate expertise. Known for his strategic mindset and reliability, he continues to deliver value through informed decision-making and a results-driven approach."
         },
@@ -34,7 +34,7 @@ export default function AboutUs() {
             role: "Head Of AI / Technology",
             image: "/images/jam.png",
             link: null,
-            description: "Mohamed is an AI specialist focused on applying artificial intelligence and machine learning to finance and real estate, driving data-driven insights, automation, and smarter decision-making. With a strong background in cybersecurity, he develops intelligent systems that prioritize both performance and protection. A dedicated technology enthusiast, Mike excels at building secure, scalable solutions that bridge advanced analytics with real-world business impact."
+            description: "Mohamed is an AI specialist focused on applying artificial intelligence and machine learning to finance and real estate, driving data-driven insights, automation, and smarter decision-making. With a strong background in cybersecurity, he develops intelligent systems that prioritize both performance and protection. A dedicated technology enthusiast, Mohamed excels at building secure, scalable solutions that bridge advanced analytics with real-world business impact."
         },
     ];
 

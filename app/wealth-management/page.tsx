@@ -33,7 +33,7 @@ export default function WealthManagement() {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-3xl text-charcoal-blue/80 max-w-4xl mx-auto font-medium drop-shadow-sm leading-relaxed"
                     >
-                        Elevate Your Clients' Wealth in Dubai's Global Hub
+                        Elevate Your Clients' Wealth in UAE's Global Hub
                     </motion.p>
                 </div>
             </section>
@@ -132,7 +132,7 @@ export default function WealthManagement() {
                         <div className="max-w-5xl mx-auto text-center">
                             <h2 className="text-4xl md:text-5xl font-serif font-bold text-royal-gold mb-10">Opportunities for Partners</h2>
                             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12 font-light">
-                                Partner with us to integrate your expertise into our ecosystem. Leading corporations, institutional investors, and financial institutions can co-manage high-net-worth portfolios, provide exclusive investment products, or collaborate on innovative ventures. Together, we can attract ultra-high-value clients seeking seamless entry into Dubai's economy, enhancing your portfolio with premium, referral-based business.
+                                Partner with us to integrate your expertise into our ecosystem. Leading corporations, institutional investors, and financial institutions can co-manage high-net-worth portfolios, provide exclusive investment products, or collaborate on innovative ventures. Together, we can attract ultra-high-value clients seeking seamless entry into UAE's economy, enhancing your portfolio with premium, referral-based business.
                             </p>
                         </div>
                     </ScrollReveal>
