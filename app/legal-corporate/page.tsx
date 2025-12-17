@@ -127,7 +127,7 @@ export default function LegalCorporate() {
                             <div className="relative z-10">
                                 <h2 className="text-3xl md:text-4xl font-serif font-bold text-royal-gold mb-8">Attracting Strategic Partners</h2>
                                 <p className="text-xl text-gray-300 leading-relaxed mb-10 font-light">
-                                    We invite leading corporations, institutional investors, and financial institutions to collaborate on integrated solutions, such as joint ventures, investment facilitation, or regulatory advisory. By partnering with The Royal Union, you gain access to a pipeline of vetted international clients, co-developing opportunities like trade finance, mergers and acquisitions, or large-scale infrastructure projects tailored to Dubai's ecosystem.
+                                    We invite leading corporations, institutional investors, and financial institutions to collaborate on integrated solutions, such as joint ventures, investment facilitation, or regulatory advisory. By partnering with The Royal Union, you gain access to a pipeline of vetted international clients, co-developing opportunities like trade finance, mergers and acquisitions, or large-scale infrastructure projects tailored to UAE's ecosystem.
                                 </p>
                             </div>
                         </div>

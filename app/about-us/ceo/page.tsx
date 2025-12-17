@@ -25,7 +25,7 @@ export default function CEOProfile() {
                         transition={{ duration: 0.8 }}
                         className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-charcoal-blue mb-8 drop-shadow-sm"
                     >
-                        The CEO
+                        The Principle Director
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 30 }}
@@ -55,7 +55,7 @@ export default function CEOProfile() {
                                 Dezmen’s expertise deepened within the private sector as he became Head of Investments for the Al Rajhi Family Office, where over a seven-year tenure he generated over USD 2.1 billion in revenue, primarily through strategic land acquisition, development entry structures, and high-yield real estate exits under Tameer Holdings. His vision and execution helped shape some of the region’s most profitable real estate transactions during a period of rapid market expansion.
                             </p>
                             <p>
-                                He continued advancing into sovereign leadership roles, serving within His Highness Private Office as Vice Chairman, entrusted with overseeing both commercial and trade matters for His Highness and his family with wealth accumulating to over 1.1 Trillion. Dezmen’s responsibilities in this capacity spanned government relations, strategic investment planning, and international partnership development—cementing his standing as a trusted steward of national-level initiatives.
+                                He continued advancing into sovereign leadership roles, serving within His Highness Private Office as Vice Chairman, entrusted with overseeing both commercial and trade matters for His Highness and his family with wealth accumulating to over 1.1 Trillion USD. Dezmen’s responsibilities in this capacity spanned government relations, strategic investment planning, and international partnership development—cementing his standing as a trusted steward of national-level initiatives.
                             </p>
                             <p>
                                 His executive acumen later extended to his tenure as Executive Director for his Highness, where he directed all investment activities linked to the House of Highness’s Sharjah real estate portfolio and broader fund operations. This role continued to solidify his ability to integrate trade insight, investment governance, and high-stakes project management.
@@ -67,16 +67,16 @@ export default function CEOProfile() {
                             </p>
                             <ul className="list-none space-y-4">
                                 <li>
-                                    <strong>F&B Ventures:</strong> Including Wok Boys and the award-winning Nara Thi Pan Asia.
+                                    <strong>F&amp;B Ventures:</strong> Including Wok Boys and the award-winning Nara Thi Pan Asia.
                                 </li>
                                 <li>
-                                    <strong>Real Estate Development, Brokerage & Investment Firms:</strong> Delivering a combined portfolio across multi-use developments.
+                                    <strong>Real Estate Development, Brokerage &amp; Investment Firms:</strong> Delivering a combined portfolio across multi-use developments.
                                 </li>
                                 <li>
                                     <strong>Oracle Traders:</strong> An artificial-intelligence-driven hedge fund specializing in predictive modeling and advanced investment algorithms.
                                 </li>
                                 <li>
-                                    <strong>Pink Trolly:</strong> Luxury Bespoke Real Estate Remoing Company providing dream aboad alterations and property appreciation upgrades.
+                                    <strong>Pink Trolly:</strong> Luxury Bespoke Real Estate Remodeling Company providing dream abode alterations and property appreciation upgrades.
                                 </li>
                                 <li>
                                     <strong>Al Barsha Private Notary:</strong> The UAE’s leading luxury private legal notary, facilitating high-value corporate and government transactions, and providing an essential gateway for international businesses entering the UAE.
@@ -107,10 +107,10 @@ export default function CEOProfile() {
                                 <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-8">A Vision for the Future</h2>
                                 <div className="w-24 h-1 bg-royal-gold mb-8" />
                                 <blockquote className="text-2xl font-light italic text-gray-700 mb-8 border-l-4 border-royal-gold pl-6">
-                                    "Our goal is not merely to do business, but to build bridges that connect cultures, economies, and aspirations. The Royal Union stands as a testament to what is possible when trust and excellence converge."
+                                    &quot;Our goal is not merely to do business, but to build bridges that connect cultures, economies, and aspirations. The Royal Union stands as a testament to what is possible when trust and excellence converge.&quot;
                                 </blockquote>
                                 <p className="text-xl text-gray-600 leading-relaxed">
-                                    Under his guidance, The Royal Union continues to expand its global footprint, inviting world-class leaders to join in writing the next chapter of UAE's success story.
+                                    Under his guidance, The Royal Union continues to expand its global footprint, inviting world-class leaders to join in writing the next chapter of UAE&apos;s success story.
                                 </p>
                             </div>
                         </div>

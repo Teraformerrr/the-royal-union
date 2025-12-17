@@ -33,7 +33,7 @@ export default function RoyalPartnerships() {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-2xl text-charcoal-blue/80 max-w-3xl mx-auto font-medium drop-shadow-sm"
                     >
-                        Exclusive access to the highest levels of influence in the UAE.
+                        Embedded within the UAE's most exclusive professional and institutional environments.
                     </motion.p>
                 </div>
             </section>
@@ -44,33 +44,31 @@ export default function RoyalPartnerships() {
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8">Overview</h2>
                         <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                            The Royal Union cultivates strategic relationships that align global enterprises with UAE's most forward looking initiatives, unlocking participation in transformative projects and elevated market positioning.
+                            The Royal Union serves as a strategic conduit between global enterprises and the UAE's forward-looking economic vision. Through carefully cultivated relationships and a nuanced understanding of the regional landscape, we help organizations navigate complex institutional environemtnts and align with emerging priorities. Our approach supports thoughtful participaation in transformative initiatives, while strengthening market positioning, institutional alignment, and the creation of sustainable, long term value across the region.
                         </p>
                     </div>
                 </ScrollReveal>
             </Section>
 
-            {/* Key Benefits */}
+           {/* Key Benefits */}
             <section className="py-20 bg-desert-sand">
                 <div className="container mx-auto px-6">
                     <ScrollReveal>
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-12 text-center">Partnership Advantages</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             {[
-                                { title: "Prestige & Credibility", desc: "Aligning your brand with royal patronage instantly elevates your standing in the region." },
-                                { title: "Domestic Relations", desc: "Streamlined communication with key ministries and regulatory bodies." },
-                                { title: "Exclusive Opportunities", desc: "Invites to closed-door investment rounds and major infrastructure projects." }
+                                { title: "Prestige & Credibility" },
+                                { title: "Domestic Relations"},
+                                { title: "Exclusive Opportunities"}
                             ].map((item, i) => (
-                                <div key={i} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                                    <h3 className="text-xl font-bold text-royal-gold mb-4">{item.title}</h3>
-                                    <p className="text-gray-600">{item.desc}</p>
+                                <div key={i} className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center h-fit">
+                                    <h3 className="text-lg font-bold text-royal-gold text-center">{item.title}</h3>
                                 </div>
                             ))}
                         </div>
                     </ScrollReveal>
                 </div>
             </section>
-
             {/* CTA */}
             <section className="py-24 bg-charcoal-blue text-white text-center">
                 <div className="container mx-auto px-6">

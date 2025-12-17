@@ -43,7 +43,7 @@ export default function RoyaltyGovernance() {
                 <ScrollReveal>
                     <div className="max-w-5xl mx-auto text-center">
                         <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-light">
-                            At The Royal Union, we bridge the gap between ambitious foreign enterprises and UAE’s influential circles. Our exclusive network grants unparalleled access to key decision-makers, facilitating seamless market entry and strategic alliances that propel your business forward.
+                            At The Royal Union, we bridge the gap between foreign enterprises and the Thriving UAE Economy. Our exclusive network grants unparalleled access to key decision-makers, facilitating seamless market entry and strategic alliances that propel your business forward.
                         </p>
                     </div>
                 </ScrollReveal>

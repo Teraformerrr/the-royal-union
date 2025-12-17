@@ -33,7 +33,7 @@ export default function StrategicInvestment() {
                         transition={{ delay: 0.2, duration: 0.8 }}
                         className="text-xl md:text-2xl text-charcoal-blue/80 max-w-3xl mx-auto font-medium drop-shadow-sm"
                     >
-                        Identifying and capitalizing on high-yield opportunities in Dubai's dynamic market.
+                        Identifying and capitalizing on high-yield opportunities in UAE's dynamic market.
                     </motion.p>
                 </div>
             </section>
@@ -44,7 +44,7 @@ export default function StrategicInvestment() {
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8">Overview</h2>
                         <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                            Our Strategic Investment division is dedicated to guiding foreign investors through the complexities of the UAE market. We leverage deep local insights and high-level connections to uncover exclusive opportunities that align with your financial goals and risk appetite.
+                            Our Strategic Investment division is dedicated to supporting foreign investors as they navigate the complexities of the UAE's dynamic market environment. Drawing on deep regional insight, dicciplined analysis, and a well-established professional network, we identify differentiated investment opportunities aligned with each client's financial pbjectives and risk profile. Our approach emphasizes strategic fit, long-term value creation, and prudent risk management, enabling investors to engage with confidence and clarity across the region's most compelling sectors.
                         </p>
                     </div>
                 </ScrollReveal>
@@ -57,13 +57,12 @@ export default function StrategicInvestment() {
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-12 text-center">Key Benefits</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             {[
-                                { title: "Market Access", desc: "Priority access to government-backed projects and pre-market deals." },
-                                { title: "Risk Analysis", desc: "Comprehensive due diligence and risk assessment tailored to the region." },
+                                { title: "Market Access",},
+                                { title: "Risk Analysis"},
                                 { title: "Portfolio Diversification", desc: "Strategies to balance your portfolio across real estate, tech, and infrastructure." }
                             ].map((item, i) => (
-                                <div key={i} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                                    <h3 className="text-xl font-bold text-royal-gold mb-4">{item.title}</h3>
-                                    <p className="text-gray-600">{item.desc}</p>
+                                <div key={i} className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center h-fit">
+                                    <h3 className="text-lg font-bold text-royal-gold text-center">{item.title}</h3>
                                 </div>
                             ))}
                         </div>
