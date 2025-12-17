@@ -70,7 +70,7 @@ export default function Footer() {
                             </li> */}
                             <li className="flex items-center gap-4">
                                 <Mail className="text-royal-gold shrink-0" size={20} />
-                                <span className="text-gray-500 text-sm">contact@royalunion.ae</span>
+                                <span className="text-gray-500 text-sm">contact@royalunionuae.com</span>
                             </li>
                         </ul>
                     </div>

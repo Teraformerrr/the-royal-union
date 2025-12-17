@@ -115,7 +115,7 @@ export default function WealthManagement() {
                                     <h3 className="text-3xl font-serif font-bold text-foreground mb-6">Legacy Planning</h3>
                                     <div className="w-20 h-1 bg-royal-gold mb-8" />
                                     <p className="text-gray-600 text-xl leading-relaxed">
-                                        Holistic solutions for succession, trusts, and philanthropy, aligned with Dubai's investor-friendly policies.
+                                        Holistic solutions for succession, trusts, and philanthropy, aligned with UAE's investor-friendly policies.
                                     </p>
                                 </div>
                             </div>
